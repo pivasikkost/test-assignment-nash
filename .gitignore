@@ -31,3 +31,13 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+# php-cs-fixer cache
+/.php_cs.cache
+
+#local configs
+/config/local/*
+!/config/local/db-example.php
+!/config/local/environments-example.php
+!/config/local/params-example.php
+!/config/local/web-example.php
